@@ -1,3 +1,7 @@
+<p align="center">
+    <img width="50" style="border-radius: 5px" height="50" alt="croct logo" src="croct.svg">
+</p>
+
 # Croct - Challenge
 
 O desafio consistia em integrar um banner personalizado em meu site usando o Sistema de Gerenciamento de Personalização (PMS). O objetivo final
