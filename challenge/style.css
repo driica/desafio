@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: black;
+}
+
+.gradiente {
+	background: linear-gradient(90deg, rgba(156,255,46,1) 24%, rgba(195,255,153,1) 100%, rgba(56,161,61,1) 100%);
+	background-size: 400% 400%;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#imgCroct{
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 2px rgb(53, 53, 53);
+    width: 350px;
+    height: 350px;
+}
+
+.imgPosition{
+    position: absolute;
+    top: 7.3rem;
+    left: 900px;
+    display: flex;
+    justify-content: center; 
+}
+
+.imgLines{
+    border-left: 4px solid rgb(97, 91, 91);
+    border-top: 2px solid rgb(97, 91, 91);
+    border-bottom: 2px solid rgb(97, 91, 91);
+    padding-top: 100px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    display: block;
+}
+
+.containerMain{
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding-left: 300px;
+    position: relative;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+#titleCroct{
+    color: #1d6414;
+    font-size: 50px;
+}
+#subtitleCroct{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#btnCroct{
+    background-color: #57b84ac4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3%;  
+}
+#btnCroct:hover{
+    background-color: #1aad0641;
+    transition: 700ms ease-in-out;
+}

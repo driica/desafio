@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project CROCT</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.croct.io/js/v1/lib/plug.js?appId=00000000-0000-0000-0000-000000000000"></script>
+    <script src="https://cdn.croct.io/js/v1/app/00000000-0000-0000-0000-000000000000/custom.js"></script>
+    <script>croct.plug()</script>
+    <script src="scripts.js"></script>
+
+</head>
+
+<body class="gradiente" onload="getUserInfo()">
+    <main>
+        <section class="containerMain">
+            <div class="imgLines">
+                <h1 id="titleCroct"></h1>
+                <h2 id="subtitleCroct"></h2>
+                <button onclick="demoCroct()" id="btnCroct"></button>
+            </div>
+            <div class="imgPosition">
+                <figure>
+                    <img id="imgCroct" alt="Image">
+                </figure>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
